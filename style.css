@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+}
+a{
+  font-size: 30px;
+  color: white;
+}
+h1{
+  color: red;
+  font-size: 40px;
+}
+a:active{
+  color: grey;
+}
+a:visited{
+  color: red;
+}
+a:link{
+  color: white;
+}
+button{
+  font-size: 50px;
+}
+
+h2{
+  color: red;
+}</style>

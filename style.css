@@ -6,14 +6,14 @@ a{
   color: white;
 }
 h1{
-  color: red;
+  color: white;
   font-size: 40px;
 }
 a:active{
   color: grey;
 }
 a:visited{
-  color: red;
+  color: purple;
 }
 a:link{
   color: white;
@@ -21,7 +21,115 @@ a:link{
 button{
   font-size: 50px;
 }
-
 h2{
-  color: red;
+  color: white;
 }</style>
+.git{
+  font-size: 30px;
+}
+.github2{
+  font-size: 30px;
+}
+.davetlink1 {
+  border-radius: 12px;
+}
+.git {
+  border-radius: 12px;
+}
+.git {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.github2 {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.davetlink1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.davetlink1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.davetlink1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.davetlink1:hover span {
+  padding-right: 25px;
+}
+
+.davetlink1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.git {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.git span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.git span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.git:hover span {
+  padding-right: 25px;
+}
+
+.git:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.widget {
+  position: fixed;
+  
+  right: 100px;
+  
+  top: 150px;
+}
